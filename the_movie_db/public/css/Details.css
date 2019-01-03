@@ -1,0 +1,26 @@
+.bodyDetail{
+    height: 600px !important;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+    /*background-image: linear-gradient(rgba(16.08%, 34.90%, 54.51%, 0.88), rgba(16.08%, 34.90%, 54.51%, 0.88)), url("https://image.tmdb.org/t/p/w780/bOGkgRGdhrBYJSLpXaxhXVstddV.jpg");*/
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.styleImage{
+    margin-left: -25em;
+    margin-top: 3em;
+    margin-right: 7em;
+}
+.navbar {
+    overflow: hidden;
+    /*background-color: #333;*/
+    padding: 14px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

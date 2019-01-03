@@ -1,0 +1,31 @@
+.overlayTitle {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: #eaf0f2;
+    background: #eaf0f2; /* Black see-through */
+    color: black !important;
+    width: 186px ;
+    height: 50px;
+    transition: .5s ease;
+    opacity:0;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.overlayTitle:hover .overlay {
+    opacity: 1;
+}
